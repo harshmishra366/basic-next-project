@@ -129,7 +129,7 @@ export const MovingBorder = ({
           top: 0,
           left: 0,
           display: "inline-block",
-          transform,
+           transform,
         }}
       >
         {children}
