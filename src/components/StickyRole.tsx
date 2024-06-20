@@ -28,6 +28,7 @@ function StickyRole() {
                  height={300}
                  className="h-full w-full object-cover"
                  alt='Jinx'
+                 
 
                 />
                
