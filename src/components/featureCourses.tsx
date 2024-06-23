@@ -7,6 +7,7 @@ import Link from 'next/link';
 import { MovingBorder } from './ui/moving-border';
 import { Button } from './ui/moving-border';
 import { text } from 'stream/consumers';
+import { AuroraBackground } from "./ui/aurora-background";
 interface Course{
     id: number,
     title: string,
@@ -22,6 +23,7 @@ interface Course{
 function FeatureCourses() {
     const feature= Coursdata.courses.filter((course:Course)=>course.isFeatured)
   return (
+    <AuroraBackground>
 
     <div className='py-12 bg-black-100'> 
       <div>
@@ -56,6 +58,7 @@ function FeatureCourses() {
         </Link>
       </div>
     </div>
+    </AuroraBackground>
   )
 }
 

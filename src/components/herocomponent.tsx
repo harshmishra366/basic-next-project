@@ -2,6 +2,7 @@ import React from "react";
 import Link from "next/link";
 import { Spotlight } from "./ui/Spotlight";
 import { Button } from "./ui/moving-border"
+import { Meteors } from "./ui/meteors";
 function Herosection() {
     return (
         <div className="md:h-[50rem] flex flex-col items-center justify-center w-full rounded-md relative overflow-hidden py-10 md:py-[10] h-full">
@@ -19,9 +20,11 @@ function Herosection() {
                     <Button  borderRadius="1.75rem"
                     className="bg-white dark:bg-black text-black dark:text-white border-neutral-200 dark:border-slate-800"> Explore Now</Button>
                     </Link>
+                    
                 </div>
             </div>
         </div>
+       
     );
 }
 

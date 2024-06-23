@@ -3,6 +3,7 @@ import React from 'react'
 import { StickyScroll } from './ui/sticky-scroll-reveal'
 import { title } from 'process'
 import Image from 'next/image'
+import { Meteors } from './ui/meteors'
 
 function StickyRole() {
     const content=[
@@ -43,6 +44,7 @@ function StickyRole() {
             content: (
               <div className="h-full w-full bg-[linear-gradient(to_bottom_right,var(--orange-500),var(--yellow-500))] flex items-center justify-center text-white">
                 Version control
+                <Meteors number={200} />
               </div>
             ),
           },
