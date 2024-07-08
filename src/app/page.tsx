@@ -11,7 +11,7 @@ import Image from "next/image";
 export default function Home() {
   return (
     <main>
-      <TracingBeam className="p-1">
+     
       <Herosection/>
       < FeatureCourses />
       < StickyRole />
@@ -20,7 +20,7 @@ export default function Home() {
       <Instructor/>
       
       
-      </TracingBeam>
+     
 
     </main>
   );

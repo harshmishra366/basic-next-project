@@ -23,7 +23,7 @@ interface Course{
 function FeatureCourses() {
     const feature= Coursdata.courses.filter((course:Course)=>course.isFeatured)
   return (
-    <AuroraBackground>
+    
 
     <div className='py-12 bg-black-100'> 
       <div>
@@ -58,7 +58,7 @@ function FeatureCourses() {
         </Link>
       </div>
     </div>
-    </AuroraBackground>
+  
   )
 }
 
